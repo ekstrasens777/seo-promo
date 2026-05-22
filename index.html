@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Информационная система продвижения сайтов в сети интернет</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- НАВИГАЦИЯ -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#" class="nav-logo">
+      <span class="logo-icon">⬡</span>
+      <span class="logo-text">Информационная система продвижения</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services" class="nav-link">Услуги</a></li>
+      <li><a href="#calculator" class="nav-link">Калькулятор</a></li>
+      <li><a href="#process" class="nav-link">Процесс</a></li>
+      <li><a href="#contact" class="nav-link nav-cta">Связаться</a></li>
+    </ul>
+    <button class="burger" id="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-inner">
+      <a href="#services" class="mobile-link" data-close>
+        <span class="mobile-link-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35" stroke-linecap="round"/></svg>
+        </span>
+        Услуги
+      </a>
+      <a href="#calculator" class="mobile-link" data-close>
+        <span class="mobile-link-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="7" x2="16" y2="7"/><line x1="8" y1="11" x2="16" y2="11"/><line x1="8" y1="15" x2="12" y2="15"/></svg>
+        </span>
+        Калькулятор
+      </a>
+      <a href="#process" class="mobile-link" data-close>
+        <span class="mobile-link-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </span>
+        Процесс работы
+      </a>
+      <a href="#contact" class="mobile-link mobile-link-cta" data-close>
+        <span class="mobile-link-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+        </span>
+        Связаться
+      </a>
+    </div>
+    <div class="mobile-menu-sub">
+      Информационная система продвижения сайтов в сети интернет
+    </div>
+  </div>
+  <div class="nav-overlay" id="navOverlay"></div>
+</nav>
+
+<!-- HERO — по центру -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <div class="grid-lines"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+  <div class="hero-center">
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      Информационная система продвижения сайтов в сети интернет
+    </div>
+    <h1 class="hero-title">
+      Выводим ваш<br>
+      <span class="accent-text">сайт на первые</span><br>
+      позиции в сети
+    </h1>
+    <p class="hero-subtitle">
+      Комплексное продвижение в поисковых системах, контекстная реклама и
+      SMM — всё для роста вашего бизнеса в интернете
+    </p>
+    <div class="hero-actions">
+      <a href="#calculator" class="btn-primary">Рассчитать стоимость</a>
+      <a href="#services" class="btn-ghost">Наши услуги ↓</a>
+    </div>
+  </div>
+</section>
+
+<!-- УСЛУГИ -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Информационная система продвижения сайтов в сети интернет</span>
+      <h2 class="section-title">Полный спектр услуг<br>по продвижению</h2>
+    </div>
+    <div class="services-grid">
+
+      <div class="service-card">
+        <div class="service-icon-wrap">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <path d="M4 28L13 19M13 19C14.5 20.5 17 21 19 20C23 18.5 25 14 23.5 10C22 6 17.5 4 13.5 5.5C9.5 7 8 11.5 9.5 15.5C10.5 18 13 19 13 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="22" cy="10" r="6" stroke="currentColor" stroke-width="2"/>
+          </svg>
+        </div>
+        <h3 class="service-name">SEO-продвижение</h3>
+        <p class="service-desc">Вывод сайта в ТОП-10 поисковых систем Яндекс и Google. Техническая оптимизация, ссылочная стратегия, контент.</p>
+        <div class="service-features"><span>Аудит сайта</span><span>Семантика</span><span>Ссылки</span></div>
+        <div class="service-price">от 15 000 ₽/мес</div>
+      </div>
+
+      <div class="service-card featured">
+        <div class="service-badge">Популярно</div>
+        <div class="service-icon-wrap">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <rect x="4" y="8" width="24" height="16" rx="2" stroke="currentColor" stroke-width="2"/>
+            <path d="M4 13h24M10 8v5M22 8v5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M10 19h5M17 19h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 class="service-name">Контекстная реклама</h3>
+        <p class="service-desc">Настройка и ведение рекламных кампаний в Яндекс.Директ и Google Ads. Максимальный ROI при минимальных затратах.</p>
+        <div class="service-features"><span>Яндекс.Директ</span><span>Google Ads</span><span>Аналитика</span></div>
+        <div class="service-price">от 20 000 ₽/мес</div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon-wrap">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <path d="M28 8C28 8 24 12 16 12C8 12 4 8 4 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="16" cy="20" r="6" stroke="currentColor" stroke-width="2"/>
+            <path d="M16 14v-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="16" cy="20" r="2" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3 class="service-name">SMM и соцсети</h3>
+        <p class="service-desc">Ведение страниц в ВКонтакте, Telegram, Одноклассниках. Создание контент-плана и регулярные публикации.</p>
+        <div class="service-features"><span>ВКонтакте</span><span>Telegram</span><span>Контент</span></div>
+        <div class="service-price">от 12 000 ₽/мес</div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon-wrap">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <path d="M6 26V16M12 26V10M18 26V14M24 26V6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 class="service-name">Аналитика и отчёты</h3>
+        <p class="service-desc">Настройка систем аналитики, отслеживание конверсий, ежемесячные отчёты с реальными показателями роста.</p>
+        <div class="service-features"><span>Яндекс.Метрика</span><span>GA4</span><span>Отчёты</span></div>
+        <div class="service-price">от 8 000 ₽/мес</div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon-wrap">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <rect x="4" y="4" width="11" height="11" rx="2" stroke="currentColor" stroke-width="2"/>
+            <rect x="17" y="4" width="11" height="11" rx="2" stroke="currentColor" stroke-width="2"/>
+            <rect x="4" y="17" width="11" height="11" rx="2" stroke="currentColor" stroke-width="2"/>
+            <rect x="17" y="17" width="11" height="11" rx="2" stroke="currentColor" stroke-width="2"/>
+          </svg>
+        </div>
+        <h3 class="service-name">Локальное SEO</h3>
+        <p class="service-desc">Продвижение в Яндекс.Картах, Google Maps. Регистрация в каталогах, работа с отзывами и репутацией.</p>
+        <div class="service-features"><span>Яндекс.Карты</span><span>2ГИС</span><span>Отзывы</span></div>
+        <div class="service-price">от 10 000 ₽/мес</div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon-wrap">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <path d="M16 4L28 10V22L16 28L4 22V10L16 4Z" stroke="currentColor" stroke-width="2"/>
+            <path d="M16 4V28M4 10L28 22M28 10L4 22" stroke="currentColor" stroke-width="1.5" stroke-opacity="0.4"/>
+          </svg>
+        </div>
+        <h3 class="service-name">Комплексное продвижение</h3>
+        <p class="service-desc">Полный пакет: SEO + контекст + SMM + аналитика. Максимальный охват аудитории и синергия всех каналов.</p>
+        <div class="service-features"><span>Все каналы</span><span>Стратегия</span><span>Поддержка 24/7</span></div>
+        <div class="service-price">от 45 000 ₽/мес</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- КАЛЬКУЛЯТОР -->
+<section class="calculator-section" id="calculator">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Информационная система продвижения сайтов в сети интернет</span>
+      <h2 class="section-title">Калькулятор стоимости</h2>
+      <p class="section-sub">Рассчитайте предварительную стоимость продвижения вашего сайта</p>
+    </div>
+    <div class="calc-wrapper">
+      <div class="calc-form">
+        <div class="calc-group">
+          <label class="calc-label">Тип услуги</label>
+          <div class="calc-options" id="calcService">
+            <button class="calc-opt active" data-service="seo" data-price="15000">SEO</button>
+            <button class="calc-opt" data-service="context" data-price="20000">Контекст</button>
+            <button class="calc-opt" data-service="smm" data-price="12000">SMM</button>
+            <button class="calc-opt" data-service="complex" data-price="45000">Комплекс</button>
+          </div>
+        </div>
+        <div class="calc-group">
+          <label class="calc-label">Регион продвижения</label>
+          <div class="calc-options" id="calcRegion">
+            <button class="calc-opt active" data-region="city" data-mult="1">Один город</button>
+            <button class="calc-opt" data-region="region" data-mult="1.5">Регион</button>
+            <button class="calc-opt" data-region="russia" data-mult="2">Вся Россия</button>
+          </div>
+        </div>
+        <div class="calc-group">
+          <label class="calc-label">Конкурентность ниши</label>
+          <div class="calc-slider-wrap">
+            <input type="range" min="1" max="3" value="1" class="calc-slider" id="competSlider">
+            <div class="calc-slider-labels">
+              <span class="active" id="compLabel0">Низкая</span>
+              <span id="compLabel1">Средняя</span>
+              <span id="compLabel2">Высокая</span>
+            </div>
+          </div>
+        </div>
+        <div class="calc-group">
+          <label class="calc-label">Дополнительные услуги</label>
+          <div class="calc-checkboxes">
+            <label class="calc-check"><input type="checkbox" id="checkAudit" data-price="5000"><span class="check-box"></span><span>Технический аудит (+5 000 ₽)</span></label>
+            <label class="calc-check"><input type="checkbox" id="checkAnalytics" data-price="4000"><span class="check-box"></span><span>Настройка аналитики (+4 000 ₽)</span></label>
+            <label class="calc-check"><input type="checkbox" id="checkContent" data-price="8000"><span class="check-box"></span><span>Создание контента (+8 000 ₽)</span></label>
+            <label class="calc-check"><input type="checkbox" id="checkLocal" data-price="6000"><span class="check-box"></span><span>Локальное SEO (+6 000 ₽)</span></label>
+          </div>
+        </div>
+        <div class="calc-group">
+          <label class="calc-label">Срок работ: <span id="termVal">3 месяца</span></label>
+          <div class="calc-slider-wrap">
+            <input type="range" min="1" max="4" value="2" class="calc-slider" id="termSlider">
+            <div class="calc-slider-labels">
+              <span>1 мес</span><span>3 мес</span><span>6 мес</span><span>12 мес</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="calc-result-panel">
+        <div class="result-card">
+          <div class="result-title">Предварительная стоимость</div>
+          <div class="result-price" id="totalPrice">15 000 ₽</div>
+          <div class="result-period">в месяц</div>
+          <div class="result-breakdown">
+            <div class="breakdown-row"><span>Базовая услуга</span><span id="bBase">15 000 ₽</span></div>
+            <div class="breakdown-row"><span>Регион / конкурентность</span><span id="bRegion">×1.00</span></div>
+            <div class="breakdown-row"><span>Доп. услуги</span><span id="bExtras">0 ₽</span></div>
+          </div>
+          <div class="result-total-block">
+            <div class="result-total-label">Итого за <span id="totalMonths">3</span> мес:</div>
+            <div class="result-total-sum" id="totalSum">45 000 ₽</div>
+          </div>
+          <a href="#contact" class="btn-primary full-width" id="calcOrderBtn">Оставить заявку</a>
+          <p class="result-note">* Точная стоимость определяется после анализа вашего проекта</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ПРОЦЕСС -->
+<section class="process" id="process">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Информационная система продвижения сайтов в сети интернет</span>
+      <h2 class="section-title">Прозрачный процесс<br>от А до Я</h2>
+    </div>
+    <div class="process-steps">
+      <div class="process-step">
+        <div class="step-num">01</div>
+        <div class="step-content"><h3>Анализ и аудит</h3><p>Изучаем ваш сайт, конкурентов и нишу. Составляем детальный отчёт с точками роста.</p></div>
+        <div class="step-connector"></div>
+      </div>
+      <div class="process-step">
+        <div class="step-num">02</div>
+        <div class="step-content"><h3>Стратегия</h3><p>Разрабатываем индивидуальную стратегию продвижения с чёткими KPI и сроками.</p></div>
+        <div class="step-connector"></div>
+      </div>
+      <div class="process-step">
+        <div class="step-num">03</div>
+        <div class="step-content"><h3>Внедрение</h3><p>Технические правки, создание контента, запуск рекламных кампаний и ссылочная работа.</p></div>
+        <div class="step-connector"></div>
+      </div>
+      <div class="process-step">
+        <div class="step-num">04</div>
+        <div class="step-content"><h3>Рост и отчёты</h3><p>Ежемесячные отчёты с реальными показателями. Постоянная оптимизация стратегии.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- КОНТАКТ -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <span class="section-tag">Информационная система продвижения сайтов в сети интернет</span>
+        <h2 class="section-title">Оставьте заявку<br>— свяжемся за 1 час</h2>
+        <p class="contact-text">Расскажите о вашем проекте. Проведём бесплатный аудит и предложим оптимальное решение.</p>
+        <div class="contact-perks">
+          <div class="perk"><span class="perk-icon">✓</span> Бесплатный аудит сайта</div>
+          <div class="perk"><span class="perk-icon">✓</span> Без предоплаты до договора</div>
+          <div class="perk"><span class="perk-icon">✓</span> Отчёты каждые 2 недели</div>
+          <div class="perk"><span class="perk-icon">✓</span> Личный менеджер проекта</div>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Ваше имя *" required class="form-input">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <input type="tel" id="phone" name="phone" placeholder="Телефон *" required class="form-input">
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Email *" required class="form-input">
+            </div>
+          </div>
+          <div class="form-group">
+            <select id="service" name="service" class="form-input form-select">
+              <option value="">Выберите услугу</option>
+              <option value="SEO-продвижение">SEO-продвижение</option>
+              <option value="Контекстная реклама">Контекстная реклама</option>
+              <option value="SMM и соцсети">SMM и соцсети</option>
+              <option value="Аналитика">Аналитика и отчёты</option>
+              <option value="Локальное SEO">Локальное SEO</option>
+              <option value="Комплексное продвижение">Комплексное продвижение</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input type="text" id="budget" name="budget" placeholder="Предполагаемый бюджет" class="form-input">
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" placeholder="Расскажите о вашем проекте" rows="4" class="form-input form-textarea"></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width" id="submitBtn">
+            <span id="submitText">Отправить заявку</span>
+            <span id="submitLoader" class="loader hidden"></span>
+          </button>
+          <div id="formSuccess" class="form-success hidden"><span>✅</span> Заявка принята! Свяжемся с вами в течение часа.</div>
+          <div id="formError" class="form-error hidden">❌ Ошибка отправки. Пожалуйста, попробуйте ещё раз.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ФУТЕР -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo">
+          <span class="logo-icon">⬡</span>
+          <span class="logo-text">ИС Продвижения</span>
+        </a>
+        <p>Информационная система продвижения сайтов в сети интернет</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <div class="footer-col-title">Услуги</div>
+          <a href="#services">SEO-продвижение</a>
+          <a href="#services">Контекстная реклама</a>
+          <a href="#services">SMM</a>
+          <a href="#services">Аналитика</a>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Навигация</div>
+          <a href="#process">Процесс работы</a>
+          <a href="#calculator">Калькулятор цен</a>
+          <a href="#contact">Связаться</a>
+          <a href="/admin">Для клиентов</a>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Контакты</div>
+          <a href="tel:+78001234567">8 800 123-45-67</a>
+          <a href="mailto:info@promo.ru">info@promo.ru</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Информационная система продвижения сайтов в сети интернет. Все права защищены.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ЩИТОК АДМИНИСТРАТОРА -->
+<a href="/admin" class="admin-corner-btn" title="Панель администратора">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 2L3 7v5c0 5.25 3.75 10.15 9 11.25C17.25 22.15 21 17.25 21 12V7L12 2z"/>
+    <path d="M9 12l2 2 4-4"/>
+  </svg>
+  <span class="admin-corner-tip">Администратор</span>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
